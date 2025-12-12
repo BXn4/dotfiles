@@ -1,7 +1,7 @@
 log_level = "warn"
-outputs = { Targets = ["DP-2"] }
+outputs = { Targets = ["DP-1"] }
 position = "Top"
-app_launcher_cmd = "rofi -show drun"
+app_launcher_cmd = "wofi -show drun"
 
 [modules]
 left = [ [ "appLauncher", "Workspaces" ] ]
