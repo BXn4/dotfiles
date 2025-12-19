@@ -14,7 +14,7 @@ enable_workspace_filling = true
 [[CustomModule]]
 name = "appLauncher"
 icon = "󱗼"
-command = "rofi -show drun"
+command = "wofi -show drun"
 
 [[CustomModule]]
 name = "Notifications"
