@@ -12,11 +12,6 @@ right = [ ["Clock", "Privacy", "Settings", "Notifications"] ]
 enable_workspace_filling = true
 
 [[CustomModule]]
-name = "appLauncher"
-icon = "󱗼"
-command = "wofi -show drun"
-
-[[CustomModule]]
 name = "Notifications"
 icon = "󰍥"
 command = "swaync-client --toggle-panel"
