@@ -2,14 +2,21 @@ log_level = "warn"
 outputs = { Targets = ["DP-1"] }
 position = "Top"
 app_launcher_cmd = "wofi -show drun"
+region = "en-HU"
 
 [modules]
-left = [ [ "appLauncher", "Workspaces" ] ]
-center = [ "Tray"]
-right = [ ["Clock", "Privacy", "Settings", "Notifications"] ]
+left = [ [ "Workspaces", "Tray" ] ]
+center = [ "Tempo"]
+right = [ ["Privacy", "Settings", "Notifications"] ]
 
 [workspaces]
 enable_workspace_filling = true
+
+[tempo]
+clock_format = "%a %d %b %R"
+weather_location = { City = "Szeged" }
+weather_indicator = "IconAndTemperature"
+wind_speed_unit = "Kmh"
 
 [[CustomModule]]
 name = "Notifications"
@@ -26,6 +33,7 @@ bluetooth_more_cmd = "blueberry"
 
 [appearance]
 style = "Solid"
+scale_factor = 1
 
 primary_color = "#8caaee"
 success_color = "#8caaee"
