@@ -6,42 +6,44 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
-
 {
+  "disable_ai": true,
+  "format_on_save": "on",
+  "cli_default_open_behavior": "existing_window",
   "ui_font_family": ".ZedSans",
   "buffer_font_family": "Fira Code",
   "active_pane_modifiers": {
-    "border_size": 0.0
+    "border_size": 0.0,
   },
   "centered_layout": {
-    "left_padding": 0.2
+    "left_padding": 0.2,
   },
   "tabs": {
     "file_icons": false,
-    "git_status": false
+    "git_status": false,
   },
   "search": {
-    "button": true
+    "button": true,
   },
   "diagnostics": {
-    "button": false
+    "button": false,
   },
   "project_panel": {
     "hide_hidden": false,
     "hide_root": true,
     "scrollbar": {
-      "show": "auto"
+      "show": "auto",
     },
     "git_status": true,
     "folder_icons": true,
     "file_icons": true,
     "entry_spacing": "comfortable",
-    "dock": "left",
+    "dock": "right",
     "default_width": 250.0,
-    "button": true
+    "button": true,
   },
   "prettier": {
-    "allowed": true
+    "allowed": true,
   },
   "linked_edits": true,
   "cursor_shape": "bar",
@@ -50,33 +52,33 @@
   "icon_theme": "JetBrains New UI Icons (Dark)",
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Frappé (Blur)",
-    "dark": "Catppuccin Frappé (Blur)"
+    "dark": "Catppuccin Frappé (Blur) [Heavy]",
   },
   "toolbar": {
     "agent_review": false,
     "breadcrumbs": false,
     "code_actions": false,
     "quick_actions": false,
-    "selections_menu": false
+    "selections_menu": false,
   },
   "tab_bar": {
-    "show": true
+    "show": true,
   },
   "title_bar": {
-    "show_branch_icon": true,
+    "show_branch_status_icon": true,
     "show_branch_name": true,
     "show_menus": false,
     "show_onboarding_banner": false,
     "show_project_items": true,
     "show_sign_in": false,
-    "show_user_picture": false
+    "show_user_picture": false,
   },
   "use_auto_surround": true,
   "terminal": {
@@ -84,20 +86,20 @@
     "cursor_shape": "underline",
     "shell": "system",
     "scrollbar": {
-      "show": "always"
+      "show": "always",
     },
     "max_scroll_history_lines": 100,
     "copy_on_select": true,
-    "button": true
+    "button": true,
   },
   "debugger": {
-    "button": false
+    "button": false,
   },
   "agent": {
-    "button": false
+    "button": false,
   },
   "notification_panel": {
-    "button": false
+    "button": false,
   },
   "show_edit_predictions": true,
   "current_line_highlight": "gutter",
@@ -105,18 +107,18 @@
   "status_bar": {
     "active_language_button": true,
     "cursor_position_button": false,
-    "line_endings_button": true
+    "line_endings_button": true,
   },
   "outline_panel": {
-    "button": false
+    "button": false,
   },
   "collaboration_panel": {
-    "button": false
+    "button": false,
   },
   "enable_language_server": true,
   "formatter": "language_server",
   "vim_mode": false,
   "global_lsp_settings": {
-    "button": true
-  }
+    "button": true,
+  },
 }
