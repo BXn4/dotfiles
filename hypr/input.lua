@@ -1,18 +1,19 @@
 hl.config({
     input = {
-        kb_layout  = "hu",
-        kb_variant = "",
-        kb_model   = "",
-        kb_options = "",
-        kb_rules   = "",
+        kb_layout          = "hu",
+        kb_variant         = "",
+        kb_model           = "",
+        kb_options         = "",
+        kb_rules           = "",
 
-        follow_mouse = 1,
+        follow_mouse       = 1,
 
-        sensitivity = 0,
+        sensitivity        = 0,
 
-        touchpad = {
+        touchpad           = {
             natural_scroll = false,
         },
+        numlock_by_default = true,
     },
 })
 
