@@ -6,8 +6,8 @@ region = "en-HU"
 
 [modules]
 left = [ [ "Workspaces", "Tray" ] ]
-center = [ "Tempo"]
-right = [ ["Privacy", "Settings", "Notifications"] ]
+center = [ "MediaPlayer"]
+right = ["Tempo", [ "Privacy", "Settings", "Notifications"] ]
 
 [workspaces]
 enable_workspace_filling = true
@@ -32,14 +32,20 @@ vpn_more_cmd = "nm-connection-editor"
 bluetooth_more_cmd = "blueberry"
 
 [appearance]
-style = "Solid"
-scale_factor = 1
-
-primary_color = "#8caaee"
-success_color = "#8caaee"
 text_color = "#c6d0f5"
 workspace_colors = [ "#8caaee", "#8caaee" ]
-special_workspace_colors = [ "#7aa2f7", "#9ece6a" ]
+
+[appearance.bar]
+surface = "solid"
+scale_factor = 1
+
+[appearance.primary_color]
+base = "#8caaee"
+text = "#c6d0f5"
+
+[appearance.success_color]
+base = "#8caaee"
+text = "#c6d0f5"
 
 [appearance.danger_color]
 base = "#8caaee"
