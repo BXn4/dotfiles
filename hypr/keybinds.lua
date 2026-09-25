@@ -1,9 +1,15 @@
 local s = "SUPER"
 
 -- My apps
--- tm = TerMinal, etc..
+-- tm = TerMinal
+-- ed = EDitor
+-- fm = FileManager
+-- mn = MeNu
+-- bw = BroWser
 -- sr = Screenshot Region
 -- sw = Screenshot Window
+-- cp = ColorPicker
+-- vn = VNC
 
 local tm = "kitty"
 local ed = "zeditor"
@@ -13,6 +19,7 @@ local bw = "torbrowser-launcher"
 local sr = "hyprshot -m region -o /home/" .. os.getenv("USER") .. "/Pictures/Screenshots"
 local sw = "hyprshot -m window -o /home/" .. os.getenv("USER") .. "/Pictures/Screenshots"
 local cp = "hyprpicker -a"
+local vn = "vncviewer"
 
 -- Apps
 hl.bind(s .. " + T", hl.dsp.exec_cmd(tm))
@@ -23,7 +30,7 @@ hl.bind(s .. " + B", hl.dsp.exec_cmd(bw))
 hl.bind(s .. " + PRINT", hl.dsp.exec_cmd(sr))
 hl.bind(s .. " + ALT + PRINT", hl.dsp.exec_cmd(sw))
 hl.bind(s .. " + R", hl.dsp.exec_cmd(cp))
-
+hl.bind(s .. " + V", hl.dsp.exec_cmd(vn))
 
 -- Window stuffs
 hl.bind(s .. " + Q", hl.dsp.window.close())
