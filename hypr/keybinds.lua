@@ -4,7 +4,7 @@ local s = "SUPER"
 -- tm = TerMinal
 -- ed = EDitor
 -- fm = FileManager
--- mn = MeNu
+-- al = AppLauncher
 -- bw = BroWser
 -- sr = Screenshot Region
 -- sw = Screenshot Window
@@ -14,7 +14,7 @@ local s = "SUPER"
 local tm = "kitty"
 local ed = "zeditor"
 local fm = "nautilus"
-local mn = "wofi --show drun"
+local al = "wofi --show drun"
 local bw = "torbrowser-launcher"
 local sr = "hyprshot -m region -o /home/" .. os.getenv("USER") .. "/Pictures/Screenshots"
 local sw = "hyprshot -m window -o /home/" .. os.getenv("USER") .. "/Pictures/Screenshots"
@@ -25,7 +25,7 @@ local vn = "vncviewer"
 hl.bind(s .. " + T", hl.dsp.exec_cmd(tm))
 hl.bind(s .. " + Z", hl.dsp.exec_cmd(ed))
 hl.bind(s .. " + E", hl.dsp.exec_cmd(fm))
-hl.bind(s .. " + SPACE", hl.dsp.exec_cmd(mn))
+hl.bind(s .. " + SPACE", hl.dsp.exec_cmd(al))
 hl.bind(s .. " + B", hl.dsp.exec_cmd(bw))
 hl.bind(s .. " + PRINT", hl.dsp.exec_cmd(sr))
 hl.bind(s .. " + ALT + PRINT", hl.dsp.exec_cmd(sw))
