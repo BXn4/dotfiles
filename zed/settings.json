@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "base_keymap": "Zed",
   "disable_ai": true,
   "format_on_save": "on",
   "cli_default_open_behavior": "existing_window",
@@ -29,13 +30,13 @@
     "button": false,
   },
   "project_panel": {
+    "folder_indicator": "icon",
     "hide_hidden": false,
     "hide_root": true,
     "scrollbar": {
       "show": "auto",
     },
     "git_status": true,
-    "folder_icons": true,
     "file_icons": true,
     "entry_spacing": "comfortable",
     "dock": "right",
@@ -49,7 +50,11 @@
   "cursor_shape": "bar",
   "buffer_line_height": "comfortable",
   "when_closing_with_no_tabs": "close_window",
-  "icon_theme": "JetBrains New UI Icons (Dark)",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "JetBrains New UI Icons (Dark)",
+    "dark": "JetBrains New UI Icons (Dark)"
+  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false,
@@ -59,7 +64,7 @@
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Frappé (Blur)",
-    "dark": "Catppuccin Frappé (Blur) [Heavy]",
+    "dark": "Catppuccin Frappé (Blue Blur+)",
   },
   "toolbar": {
     "agent_review": false,
@@ -96,9 +101,6 @@
     "button": false,
   },
   "agent": {
-    "button": false,
-  },
-  "notification_panel": {
     "button": false,
   },
   "show_edit_predictions": true,
